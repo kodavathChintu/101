@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #54c96b;
+  color: #3f1bd2;
+  text-align: center;
+  padding: 1rem 0;
+
+}
+
+main {
+  padding: 2rem;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: violet;
+  padding: 40px;
+}
+.unlimited{
+  padding: 5px;
+  background-color: red;
+  border-radius:30px ;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:whitesmoke ;
+}
+.recharge {
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 30px;
+  margin-top: 40px;
+ 
+  background-color: blue;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.recharge:hover {
+  background-color: rgb(226, 114, 34);
+}
+
+.recharge:active {
+  opacity: 0.8;
+}
+
+.price-option {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 1rem;
+  border-color: #333;
+  box-shadow: #1a1a1a;
+  text-align: center;
+  background-color: rgb(6, 218, 242);
+  
+}
+
+.price {
+  font-size: 1.5rem;
+  color:rgb(2, 2, 2);
+}
+.merged-logo {
+  max-width: 25px;
+  max-height: 25px;
+  margin-right: -5px; /* Adjust this value for slight overlap */
+  margin-top: 5px;
+  padding-right: 5px; /* Adjust this value for slight overlap */
+  float: left;
+}
+
+.merged-logo.sub {
+  margin-right: 0;
+  padding-right: 0;
+  float: left;
+}
+.merged-logo.sub.cloud{
+  margin-right: 0;
+  padding-right: 0;
+  float: left;
+}
+.merged-logo.sub.cloud.text {
+  margin-right: 0;
+  padding-right: 0;
+  float: left;
+   
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
